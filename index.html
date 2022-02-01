@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="shortcut icon" href="assets/img/Mario_star.png" type="image/x-icon">
+    <title>Carrera de coches</title>
+</head>
+
+<body>
+
+    <header id="cabecera">
+        <h1 id="titulo"> <img src="assets/img/luigi.png" id="luigi" alt="Mario">Carreras de coches<img
+                src="assets/img/mario.png" id="mario" alt="Mario"></h1>
+    </header>
+
+    <main id="container">
+        <div id="eleccion">
+
+            <p id="tituloContainer">Selecciona los participantes</p>
+            <select id="listaJugadores">
+                <option value="0"> </option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+            </select>
+
+            <input type="button" id="iniciar" value="Iniciar">
+            <input type="button" id="reiniciar" value="Reiniciar">
+        </div>
+
+        <div id="carrera"></div>
+
+    </main>
+
+    <footer>
+        <p>&copy; <span id="fecha"></span> por Alexis Garcia Mancha</p>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="js/index.js"></script>
+    <script src="js/jquery.js"></script>
+
+</body>
+
+</html>
